@@ -1,0 +1,5 @@
+﻿CREATE TABLE [dbo].[Product_Type]
+(
+	[ID] BIGINT NOT NULL PRIMARY KEY IDENTITY, 
+    [Description] VARCHAR(500) NULL 
+)

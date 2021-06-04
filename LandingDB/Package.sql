@@ -1,0 +1,5 @@
+﻿CREATE TABLE [dbo].[Package]
+(
+	[ID] BIGINT NOT NULL PRIMARY KEY IDENTITY, 
+    [Description] VARCHAR(500) NULL
+)
